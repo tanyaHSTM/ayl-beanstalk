@@ -15,6 +15,6 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rails', "~> 4.1"
+  gem 'rails', '~> 4.1', '>= 4.1.10'
   gem 'pry', "~> 0.9"
 end
