@@ -11,10 +11,10 @@ gem 'daemons', "~> 1.1"
 group :development do
   gem "rspec", "~> 2.14"
   gem "bundler", "~> 1.10"
-  gem "jeweler", "~> 2.0"
+  gem "jeweler", "~> 2.1", ">= 2.1.1"
 end
 
 group :test, :development do
-  gem 'rails', "~> 4.1"
+  gem 'rails', '~> 7.0', '>= 7.0.8.1'
   gem 'pry', "~> 0.9"
 end
